@@ -28,3 +28,6 @@ const heart = document.getElementById('heart');
         
     });
 
+    var a = +alert('Перед началом включи песню сверху слева, приятного чтения)')
+    console.log(a);
+
