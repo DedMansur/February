@@ -23,12 +23,7 @@ body {
     align-items: center;
 }
 
-.img2{
-    position: relative;
-    transform: rotate(40deg);
-    left: 700px;
-    z-index: 1;
-}
+
 
 iframe {
     position: fixed;
