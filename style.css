@@ -22,12 +22,12 @@ body {
 
 
 iframe {
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     width: 40%;
-    height: 30%; 
-    z-index: 0; 
+    height: 30%;
+    z-index: 0;
 }
 
 h1 {
@@ -41,9 +41,8 @@ p {
     margin-bottom: 20px;
 }
 
-.p{
+.p {
     text-align: center;
-    gap: 10px;
 }
 
 #heart {
@@ -127,17 +126,61 @@ p {
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .block {
-        width: 100%;
-        padding: 0 20px;
+@media (max-width: 576px) {
+    .container {
+        font-size: 10px;
+    }
+
+    iframe {
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 30%;
+        z-index: 0;
+    }
+
+}
+
+
+@media (max-width: 998px) {
+    .container {
+        font-size: 10px;
+    }
+
+    iframe {
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 30%;
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 20px;
+    }
+
+    iframe {
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 30%;
+        z-index: 0;
     }
 }
 
 
-@media only screen and (max-width: 480px) {
-    .block{
-        width: 100%;
-        padding: 0 10px;
+@media screen and (max-width: 1200px) {
+    .container {
+        font-size: 20px;
+    }
+
+    iframe {
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 30%;
+        z-index: 0;
     }
 }
