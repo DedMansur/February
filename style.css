@@ -12,12 +12,12 @@ body {
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: #e2d7d7;
     padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     position: relative;
-    bottom: 130px;
+    top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
